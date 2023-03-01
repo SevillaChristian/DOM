@@ -1,0 +1,52 @@
+.card {
+	border: 1px solid #ccc;
+    border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	display: inline-block;
+    width: 30%;
+}
+
+.card:hover {
+    background-color: rgb(11, 166, 166);
+   transform: scale(1.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.card p {
+    margin-top: 0;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif; 
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card.open p {
+    display: block;
+}
+
+.boton-compra {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 10px;
+	cursor: pointer;
+    
+}
+
+.boton-compra.agregado {
+	background-color: #4CAF50;
+	cursor: default;
+}
